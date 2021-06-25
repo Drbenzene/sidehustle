@@ -7,7 +7,7 @@ function myFunction(){
 
     $result = array(range(1,50));
 
-    var_dump($result);
+    return $result;
 
 }
 
@@ -18,7 +18,7 @@ myFunction();
 function sum(){
     $numbers = array(2,6,10,15,45,60);
     $addition = array_sum($numbers);
-    var_dump($addition);
+    return $addition;
 }
 
 sum();
